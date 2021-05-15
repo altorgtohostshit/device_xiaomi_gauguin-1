@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_gauguin.mk
+    $(LOCAL_DIR)/nezuko_gauguin.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_gauguin-user \
-    nad_gauguin-userdebug \
-    nad_gauguin-eng
+    nezuko_gauguin-user \
+    nezuko_gauguin-userdebug \
+    nezuko_gauguin-eng
