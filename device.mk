@@ -30,21 +30,9 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
-<<<<<<< HEAD
-# ANT+
-=======
 # APN
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/apns-conf.xml:system/etc/apns-conf.xml
-
-# APN
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/apns-conf.xml:system/etc/apns-conf.xml
-
-# ANT
->>>>>>> f101418... land: Import APN's conf
-PRODUCT_PACKAGES += \
-    AntHalService-Soong
 
 # Audio
 PRODUCT_PACKAGES += \
