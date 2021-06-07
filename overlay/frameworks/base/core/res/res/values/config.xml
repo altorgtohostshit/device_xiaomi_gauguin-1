@@ -22,6 +22,8 @@
     <bool name="config_automatic_brightness_available">true</bool>
     <!-- Whether the device supports Smart Pixels -->
     <bool name="config_enableSmartPixels">true</bool>
+    <!-- Smartcharging -->
+    <bool name="config_supportSmartCharging">true</bool> </resources>
     <!-- Boolean indicating if current platform supports BLE peripheral mode -->
     <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
     <!-- Whether camera shutter sound is forced or not  (country specific). -->
