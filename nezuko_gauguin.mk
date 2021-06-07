@@ -24,3 +24,6 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 USE_GAPPS := true
+
+BUILD_FINGERPRINT := google/redfin/redfin:11/RQ2A.210505.003/7255357:user/release-keys
+BUILD_DESCRIPTION := redfin-user 11 RQ2A.210505.003 7255357 release-keys
