@@ -20,6 +20,8 @@
     <!-- Flag indicating whether we should enable the automatic brightness.
          Software implementation will be used if config_hardware_auto_brightness_available is not set -->
     <bool name="config_automatic_brightness_available">true</bool>
+    <!-- Whether the device supports Smart Pixels -->
+    <bool name="config_enableSmartPixels">true</bool>
     <!-- Boolean indicating if current platform supports BLE peripheral mode -->
     <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
     <!-- Whether camera shutter sound is forced or not  (country specific). -->
